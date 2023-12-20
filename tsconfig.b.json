@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"incremental": true,
+		"skipLibCheck": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"strictBindCallApply": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"target": "ES2020",
+		"paths": {
+			"@client/*": ["./packages/client/src/*"],
+			"@server/*": ["./packages/server/src/*"],
+			"@utils/*": ["./utils/*"]
+		}
+	}
+}
